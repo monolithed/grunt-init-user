@@ -1,0 +1,31 @@
+{
+    "name"    : "grunt-init-user",
+    "version" : "0.0.1",
+    "author"  : "Abashkin Alexander <monolithed@gmail.com>",
+    "license" : "MIT",
+    "homepage": "https://github.com/monolithed/grunt-init-user.git",
+
+    "description": "grunt-init template for associating user commits with an identity",
+
+    "keywords": [ "grunt", "grunt-init", "git", "registry", "credentials" ],
+
+    "man" : "README.md",
+    "main": "template.js",
+
+    "engines": {
+        "node": ">=0.12.0"
+    },
+
+    "repository": {
+        "type": "git",
+        "url" :  "https://github.com/monolithed/grunt-init-user.git"
+    },
+
+    "bugs": {
+        "url": "https://github.com/monolithed/grunt-init-user/issues"
+    },
+
+    "peerDependencies": {
+        "grunt-init": "^0.3.2"
+    }
+}
