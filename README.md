@@ -13,7 +13,7 @@ If you haven't already done so, install grunt-init.
 Once grunt-init is installed, place this template in your `~/.grunt-init/` directory. It's recommended that you use git to clone this template into that directory, as follows:
 
 ```shell
-git clone https://github.com/monolithed/grunt-init-user.git ~/.grunt-init/node
+git clone https://github.com/monolithed/grunt-init-user.git ~/.grunt-init/user
 ```
 
 *(Windows users, see the [documentation](http://gruntjs.com/project-scaffolding) for the correct destination directory path)*
