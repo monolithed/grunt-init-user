@@ -18,12 +18,6 @@ git clone https://github.com/monolithed/grunt-init-user.git ~/.grunt-init/node
 
 *(Windows users, see the [documentation](http://gruntjs.com/project-scaffolding) for the correct destination directory path)*
 
-
-## grunt-transform task
-_Run this task with the `grunt polyfiller` command._
-
-Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
-
 ### Usage
 
 At the command-line, cd into an empty directory, run this command and follow the prompts.
@@ -31,7 +25,6 @@ At the command-line, cd into an empty directory, run this command and follow the
 ```
 grunt-init user
 ```
-
 
 *Note that this template will generate files in the current directory, so be sure to change to a new directory first if you don't want to overwrite existing files.*
 
