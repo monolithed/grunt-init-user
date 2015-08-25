@@ -22,16 +22,17 @@ exports.template = function (grunt, init, done) {
         init.prompt('author_name'),
         init.prompt('author_email')
     ],
-    function (error, property) {
+    function (error, properties) {
         if (error) {
             grunt.fail.fatal(error);
         }
 
-        exec('git config --add user.email "' +
-            property.author_email + '"');
+        var keys = ['name', 'email'];
 
-        exec('git config --add user.name "' +
-            property.author_name + '"');
+        keys.forEach(function (key) {
+            exec('git config --add user.' + key + ' "' +
+                properties['author_' + key] + '"');
+        });
 
         done();
     });
