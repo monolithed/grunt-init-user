@@ -9,9 +9,11 @@
 
 ## Installation
 
+There're two ways!
+
 #### grunt-init
 
-If you haven't already done so, install grunt-init.
+If you haven't already done so, install `grunt-init`.
 
 Once grunt-init is installed, place this template in your `~/.grunt-init/` directory. It's recommended that you use git to clone this template into that directory, as follows:
 
@@ -24,7 +26,7 @@ git clone https://github.com/monolithed/grunt-init-user.git ~/.grunt-init/user
 
 #### package.json
 
-There's an alternative way. 
+There's an alternative way. <br />
 You'd add the following lines to your `package.json` file:
 
 ```json
